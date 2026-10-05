@@ -1,0 +1,142 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.input {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #3498db;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.checkboxLabel {
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.error {
+  color: #e74c3c;
+  background: #fdf2f2;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0;
+  text-align: center;
+}
+
+.submitButton {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  transform: translateY(-2px);
+}
+
+.successMessage {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 12px;
+  text-align: center;
+}
+.forgotPassword {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #2878d7;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: #2878d7;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.successText {
+  color: #2e8b57;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}

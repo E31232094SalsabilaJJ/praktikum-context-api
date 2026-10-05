@@ -1,0 +1,243 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7fb;
+  padding: 30px;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  text-align: center;
+  color: #1f3b5b;
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #26384a;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d5dbe1;
+  border-radius: 7px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color: #2878d8;
+  box-shadow: 0 0 0 3px rgba(40, 120, 216, 0.1);
+}
+
+.input.error {
+  border-color: #e74c3c;
+}
+
+.errorMessage {
+  display: block;
+  margin-top: 6px;
+  color: #e74c3c;
+  font-size: 13px;
+}
+
+.strengthContainer {
+  margin-top: 10px;
+}
+
+.strengthBar {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.strengthProgress {
+  height: 100%;
+  background: #2878d8;
+  transition: width 0.3s ease;
+}
+
+.strengthText {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 20px;
+  font-size: 13px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #555;
+}
+
+.remember input {
+  cursor: pointer;
+}
+
+.forgot {
+  color: #2878d8;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 7px;
+  background: #2878d8;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submitButton:hover {
+  background: #1d65b8;
+}
+
+.submitButton:disabled {
+  background: #9bbce0;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background: #e8f8ee;
+  color: #218838;
+  font-size: 14px;
+}
+
+.errorBox {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background: #fdeaea;
+  color: #c0392b;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .loginCard {
+    padding: 25px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+.forgotPassword {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #2878d7;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: #2878d7;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.successText {
+  color: #2e8b57;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 20px;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  font-size: 14px;
+  cursor: pointer;
+}

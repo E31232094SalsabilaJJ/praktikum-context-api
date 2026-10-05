@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #1e3a5f;
+  --secondary-color: #f5f7fa;
+  --accent-color: #3498db;
+  --text-color: #333333;
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
